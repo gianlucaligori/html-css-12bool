@@ -4,24 +4,46 @@
     box-sizing: border-box;
 }
 
-.container {
-    /* max-width: 1170px; */
-    margin: 0 auto;
-    background-color: blue;
+/* PALETTE COLOR */
+:root {
+    --box-color: rgba(0,108,250,255);
+    --box-border: white;
 }
 
+/* TITLES */
+h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+/* CONTAINERS */
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: var(--box-color);
+}
+
+.container-2 {
+    margin-top: 1rem;
+}
+
+/* ROWS STYLE */
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 100px;
-    border: 1px solid black;
+    height: 50px;
 }
 
+
+
+
+
+/* COLUMNS REGULAR */
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--box-border);
 }
 
 .col-2 {
@@ -33,57 +55,131 @@
 .col-3 {
     flex-basis: calc((100% / 12) * 3);
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--box-border);
 }
 
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--box-border);
 }
 
 .col-5 {
     flex-basis: calc((100% / 12) * 5);
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--box-border);
 }
 .col-6 {
     flex-basis: calc((100% / 12) * 6);
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--box-border);
 }
 
 .col-7 {
     flex-basis: calc((100% / 12) * 7);
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--box-border);
 }
 
 .col-8 {
     flex-basis: calc((100% / 12) * 8);
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--box-border);
 }
 
 .col-9 {
     flex-basis: calc((100% / 12) * 9);
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--box-border);
 }
 
 .col-10 {
     flex-basis: calc((100% / 12) * 10);
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--box-border);
 }
 
 .col-11 {
     flex-basis: calc((100% / 12) * 11);
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--box-border);
 }
 .col-12 {
     flex-basis: calc((100% / 12) * 12);
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--box-border);
 }
+
+/* NESTES COLUMNS */
+
+.nested-col-1 {
+    flex-basis: calc((100% / 12) * 1);
+    height: 80%;
+    background-color: green;
+}
+
+.nested-col-2 {
+    flex-basis: calc((100% / 12) * 2);
+    height: 80%;
+    background-color: green;
+}
+
+.nested-col-3 {
+    flex-basis: calc((100% / 12) * 3);
+    height: 80%;
+    background-color: green;
+}
+
+.nested-col-4 {
+    flex-basis: calc((100% / 12) * 4);
+    height: 80%;
+    background-color: green;
+}
+
+.nested-col-5 {
+    flex-basis: calc((100% / 12) * 5);
+    height: 80%;
+    background-color: green;
+}
+
+.nested-col-6 {
+    flex-basis: calc((100% / 12) * 6);
+    height: 80%;
+    background-color: green;
+}
+.nested-col-7 {
+    flex-basis: calc((100% / 12) * 7);
+    height: 80%;
+    background-color: green;
+}
+
+.nested-col-8 {
+    flex-basis: calc((100% / 12) * 8);
+    height: 80%;
+    background-color: green;
+}
+
+.nested-col-9 {
+    flex-basis: calc((100% / 12) * 9);
+    height: 80%;
+    background-color: green;
+}
+
+.nested-col-10 {
+    flex-basis: calc((100% / 12) * 10);
+    height: 80%;
+    background-color: green;
+}
+
+.nested-col-11 {
+    flex-basis: calc((100% / 12) * 11);
+    height: 80%;
+    background-color: green;
+}
+
+.nested-col-12 {
+    flex-basis: calc((100% / 12) * 12);
+    height: 80%;
+    background-color: green;
+}
+
