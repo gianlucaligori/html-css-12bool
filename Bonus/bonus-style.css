@@ -1,0 +1,33 @@
+[class*="col-"] {
+    height: 50px;
+    /* border: 1px solid rgb(40, 40, 40); */
+}
+
+:root {
+    --space: grey;
+    --layout: black;
+    --glass: rgb(206,231,247);
+    --leica: rgb(255,0,0);
+}
+
+
+.space {
+    background-color: var(--space);
+}
+
+.black {
+    background-color: var(--layout);
+}
+
+.glass {
+    background-color: var(--glass);
+}
+
+.leica {
+    background-color: var(--leica);
+}
+
+.leica-logo {
+    height: 200%;
+    padding: .5rem;
+}

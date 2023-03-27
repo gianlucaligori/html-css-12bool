@@ -7,9 +7,8 @@
 /* CONTAINERS */
 .container {
     max-width: 1170px;
-    margin: 0 auto;
-    padding: 1rem;
-    margin-bottom: 2rem;
+    margin: 6rem auto;
+    border: 5px groove var(--leica);
 }   
 
 /* ROWS STYLE */
@@ -18,8 +17,6 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-
 
 
 /* COLUMNS REGULAR */
